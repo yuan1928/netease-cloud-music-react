@@ -1,0 +1,61 @@
+#carouselRoot{
+    width: 85vw;
+    height: 200px;
+    position: relative;
+}
+#carouselCenter{
+    width: 40%;
+    position: absolute;
+    right: 30%;
+}
+#carouselLeft{
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    margin-top: 25px;
+}
+#carouselRight{
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    margin-top: 25px;
+}
+#dotsL{
+    display: none;
+}
+#carouselButtons{
+    width: 20%;
+    height: 20px;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carouselButton{
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    background-color: azure;
+    cursor: pointer;
+}
+#carouselSwitchLeft,#carouselSwitchRight{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselSwitchLeft{
+    left: 10%;
+    cursor: pointer;
+}
+#carouselSwitchRight{
+    right: 10%;
+    cursor: pointer;
+ }

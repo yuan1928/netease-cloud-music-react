@@ -1,0 +1,18 @@
+#root{
+    height: 100vh;
+}
+#top{
+    height: 8%;
+}
+#center{
+    height: 84%;
+    display: flex;
+}
+#bottom{
+    height: 8vh;
+}
+#content{
+    width: 85vw;
+    height: 84vh;
+}
+

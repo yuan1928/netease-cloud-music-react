@@ -1,0 +1,11 @@
+#BroadcastRoot{
+    width: 85vw;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.broadcastContainer{
+    width: 33%;
+    position: relative;
+    height: 200px;
+}

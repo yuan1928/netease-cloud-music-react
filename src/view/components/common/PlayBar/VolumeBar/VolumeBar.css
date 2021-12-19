@@ -1,0 +1,36 @@
+#volumeSensing{
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    width: 30px;
+    height: 100px;
+    padding: 5px;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#volumeBG{
+    width: 5px;
+    height: 90px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#volumeBar{
+    width: 5px;
+    height: 100%;
+    border-radius: 0 0 3px 3px;
+    background-color: rgb(201,38,32);
+}
+#volumeThumb{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgb(201,38,32);
+}

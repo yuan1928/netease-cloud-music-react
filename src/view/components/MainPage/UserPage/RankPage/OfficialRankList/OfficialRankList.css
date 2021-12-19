@@ -1,0 +1,8 @@
+.officialRankListItem{
+    width: 100%;
+    padding: 2px 6px 2px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}

@@ -1,0 +1,14 @@
+.searchPageAlbumsRowEven,.searchPageAlbumsRowOdd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.searchPageAlbumsRowEven:hover,.searchPageAlbumsRowOdd:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.searchPageAlbumsRowEven{
+    background-color: rgba(0,0,0,0.05);
+}

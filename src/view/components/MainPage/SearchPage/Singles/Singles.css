@@ -1,0 +1,28 @@
+.ant-pagination-item-active{
+    border-color: rgb(201,38,32);
+}
+.ant-pagination-item-active a{
+    color: rgb(201,38,32);
+}
+.ant-pagination-item-active a:hover{
+    color: rgb(201,38,32);
+}
+ .ant-pagination-item a:hover{
+     color: rgb(201,38,32);
+ }
+.ant-pagination-item:hover{
+    border-color: rgb(201,38,32);
+}
+.ant-pagination-prev .ant-pagination-item-link span:hover, .ant-pagination-next .ant-pagination-item-link span:hover{
+    color: rgb(201,38,32);
+}
+.ant-pagination-prev .ant-pagination-item-link:hover, .ant-pagination-next .ant-pagination-item-link:hover{
+    color: rgb(201,38,32);
+    border-color: rgb(201,38,32);
+}
+#keyword{
+    color: darkred;
+}
+.selectedRow{
+    background-color: rgba(0,0,0,0.15);
+}

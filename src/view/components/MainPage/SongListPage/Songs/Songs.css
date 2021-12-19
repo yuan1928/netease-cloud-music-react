@@ -1,0 +1,15 @@
+.SongListPageSongsOddRow,.SongListPageSongsEvenRow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px 0 10px 0;
+}
+.SongListPageSongsEvenRow{
+    background-color: rgba(0,0,0,0.05);
+}
+.SongListPageSongsOddRow:hover,.SongListPageSongsEvenRow:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+

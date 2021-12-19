@@ -1,0 +1,82 @@
+#playRoot{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    border-top: 0.5px solid rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+    background-color: white;
+}
+#songInfo{
+    width: 10%;
+    display: flex;
+}
+#titleAndLikeAndSinger{
+    width: 100px;
+    margin-left: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#titleAndLike{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#play{
+    width: 20%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#playButtons{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#playSensing{
+    width: 500px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#playBG{
+    width: 500px;
+    height: 3px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 1.5px;
+    display: flex;
+    align-items: center;
+}
+#playBar{
+    width: 0;
+    height: 3px;
+    background-color: rgb(201,38,32);
+}
+#playThumb{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgb(201,38,32);
+}
+.like{
+   background-color: darkred;
+    border: #282c34 solid;
+}
+#volume, #playSongsList{
+    position: absolute;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playSongsList{
+    right: 75px;
+}

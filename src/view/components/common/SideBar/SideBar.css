@@ -1,0 +1,45 @@
+#sideRoot{
+    border-right: 0.5px solid rgba(0,0,0,0.3);
+    width: 15vw;
+    height: 100%;
+    padding: 5px;
+}
+.able,.clicked,.disabled,.ableSpecial,.clickedSpecial{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 17px;
+    padding: 5px;
+}
+.ableSpecial,.clickedSpecial{
+    font-size: 14px;
+}
+.disabled{
+    font-size: 14px;
+    color: rgba(0,0,0,0.3);
+}
+.clicked,.clickedSpecial{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.clicked{
+    font-weight: bolder;
+}
+.able:hover,.ableSpecial:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sideIcon{
+    margin-right: 3px;
+}
+#songsList,#sideLike{
+    position: relative;
+}
+#songsListIcon,#sideLikeIcon{
+    position: absolute;
+    right: 2px;
+    color: black;
+}

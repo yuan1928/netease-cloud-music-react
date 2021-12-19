@@ -1,0 +1,11 @@
+#MVRoot{
+    width: 85vw;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mvContainer{
+    width: 25%;
+    position: relative;
+    padding: 3px;
+}

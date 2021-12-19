@@ -1,0 +1,66 @@
+.detailPageLyricsItem{
+    height: 25px;
+    color: gray;
+    font-size: 15px;
+    margin: 20px;
+}
+.detailPageLyricCur{
+    height: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px;
+}
+.detailPageSimilarSong{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: rgba(0,0,0,0.4);
+}
+.detailPageSimilarSong:hover{
+    color: black;
+}
+#detailPageMusicLyrics{
+    width: 35vw;
+}
+#detailPageMusicInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#detailPageMusicImg{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ant-pagination-item-active{
+    border-color: rgb(201,38,32);
+}
+.ant-pagination-item-active a{
+    color: rgb(201,38,32);
+}
+.ant-pagination-item-active a:hover{
+    color: rgb(201,38,32);
+}
+.ant-pagination-item a:hover{
+    color: rgb(201,38,32);
+}
+.ant-pagination-item:hover{
+    border-color: rgb(201,38,32);
+}
+.ant-pagination-prev .ant-pagination-item-link span:hover, .ant-pagination-next .ant-pagination-item-link span:hover{
+    color: rgb(201,38,32);
+}
+.ant-pagination-prev .ant-pagination-item-link:hover, .ant-pagination-next .ant-pagination-item-link:hover{
+    color: rgb(201,38,32);
+    border-color: rgb(201,38,32);
+}

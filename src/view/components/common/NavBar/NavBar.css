@@ -1,0 +1,38 @@
+#navIcon{
+    width: 3vh;
+    height: 3vh;
+}
+#navRoot{
+    height: 8vh;
+    display: flex;
+    position: relative;
+    background-color: rgb(201,38,32);
+}
+#navLeft,#navCenter,#navRight{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#navLeft{
+    left: 0;
+}
+#navCenter{
+    left: 20%;
+}
+#navRight{
+    right: 0;
+}
+.navItem{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.ant-btn:hover{
+    color: skyblue;
+}
+.span{
+    color: azure;
+}
+.navTitle{
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+#recommendSongsListRoot{
+    width: 85vw;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommendSongContainer{
+    width: 20%;
+    height: 250px;
+    position: relative;
+    padding: 3px;
+}

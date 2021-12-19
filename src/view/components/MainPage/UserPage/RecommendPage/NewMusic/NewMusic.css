@@ -1,0 +1,14 @@
+#newMusicRoot{
+    width: 85vw;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.newMusicContainer{
+    width: 33%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+}

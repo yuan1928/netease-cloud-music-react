@@ -1,0 +1,13 @@
+.searchPageSongListsRowOdd,.searchPageSongListsRowEven{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.searchPageSongListsRowEven{
+    background-color: rgba(0,0,0,0.05);
+}
+.searchPageSongListsRowEven:hover,.searchPageSongListsRowOdd:hover{
+    background-color: rgba(0,0,0,0.1);
+}
